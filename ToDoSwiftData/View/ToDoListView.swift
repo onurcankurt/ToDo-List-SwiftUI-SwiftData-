@@ -17,10 +17,12 @@ struct ToDoListView: View {
     var body: some View {
         List {
             ForEach(toDos) { toDo in
-                HStack{
-                    Text(toDo.name)
-                    Spacer()
-                    Text(toDo.priority.description)
+                NavigationLink(value: toDo) {
+                    HStack{
+                        Text(toDo.name)
+                        Spacer()
+                        Text(toDo.priority.description)
+                    }
                 }
             }.onDelete(perform: { indexSet in
                 indexSet.forEach { index in
@@ -34,6 +36,8 @@ struct ToDoListView: View {
                     }
                 }
             })
+        }.navigationDestination(for: ToDo.self) { toDo in
+            ToDoDetailScreen(toDo: toDo)
         }
     }
 }

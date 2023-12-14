@@ -14,6 +14,7 @@
 		77CCC9232B2B2D9D00EFFBA2 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CCC9222B2B2D9D00EFFBA2 /* ToDo.swift */; };
 		77CCC9252B2B39E200EFFBA2 /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CCC9242B2B39E200EFFBA2 /* ListScreen.swift */; };
 		77CCC9272B2B3A0000EFFBA2 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CCC9262B2B3A0000EFFBA2 /* ToDoListView.swift */; };
+		77CCC9292B2B508E00EFFBA2 /* ToDoDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CCC9282B2B508E00EFFBA2 /* ToDoDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		77CCC9222B2B2D9D00EFFBA2 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		77CCC9242B2B39E200EFFBA2 /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
 		77CCC9262B2B3A0000EFFBA2 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		77CCC9282B2B508E00EFFBA2 /* ToDoDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				77CCC9132B2B2D1700EFFBA2 /* AddToDoScreen.swift */,
 				77CCC9242B2B39E200EFFBA2 /* ListScreen.swift */,
+				77CCC9282B2B508E00EFFBA2 /* ToDoDetailScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				77CCC9142B2B2D1700EFFBA2 /* AddToDoScreen.swift in Sources */,
 				77CCC9122B2B2D1700EFFBA2 /* ToDoSwiftDataApp.swift in Sources */,
 				77CCC9252B2B39E200EFFBA2 /* ListScreen.swift in Sources */,
+				77CCC9292B2B508E00EFFBA2 /* ToDoDetailScreen.swift in Sources */,
 				77CCC9272B2B3A0000EFFBA2 /* ToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
