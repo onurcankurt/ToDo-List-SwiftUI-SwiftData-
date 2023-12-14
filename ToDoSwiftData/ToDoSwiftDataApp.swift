@@ -12,8 +12,8 @@ struct ToDoSwiftDataApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack{
-                AddToDoScreen().modelContainer(for: [ToDo.self])
+                ListScreen()
             }
-        }
+        }.modelContainer(for: [ToDo.self])
     }
 }
